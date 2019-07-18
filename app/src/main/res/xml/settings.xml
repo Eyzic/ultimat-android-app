@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="server_category"
+        app:title="Server">
+
+        <EditTextPreference
+            android:defaultValue="none"
+            android:key="server_address"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="localhost $s"
+            android:title="Address" />
+
+        <EditTextPreference
+            android:defaultValue="none"
+            android:key="server_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="22"
+            android:title="Port" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
