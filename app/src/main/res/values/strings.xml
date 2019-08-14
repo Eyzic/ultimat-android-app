@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">UltiMAT</string>
+    <string name="app_name">UltiMAT v0.1</string>
+    <string name="content">0</string>
+    <string name="loading">Loading…</string>
+    <string name="delete">X</string>
+    <string name="new_name">Name</string>
+    <string name="delete_list">Delete</string>
+    <string name="change_name">Rename</string>
+    <string name="title_activity_shopping_list_items">ShoppingListItemsActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="lets_get_started">To get started, create your own shopping list by clicking the button below!</string>
+    <string name="app_name_launcher">UltiMAT</string>
+    <string name="create_my_first_shopping_list">Create my first Shopping List</string>
+    <string name="cart">Cart</string>
+    <string name="new_list">New list</string>
+    <string name="new_item">New item</string>
+    <string name="no_lists_available">No lists available</string>
 </resources>
